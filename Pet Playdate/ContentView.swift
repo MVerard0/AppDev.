@@ -22,7 +22,7 @@ struct ContentView: View {
             Text("Profile View")
                 .tabItem { Image(systemName: "dog")}
         }
-        .padding()
+        .tint(.color)
     }
 }
 
